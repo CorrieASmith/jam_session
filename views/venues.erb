@@ -1,0 +1,33 @@
+<body class="cs-background">
+
+  <div class="container">
+    <h1>Venues</h1>
+    <p></p>
+
+    <form action="/venues" method="post">
+      <div class="form-group">
+        <label for="name">Add a new venue:</label>
+        <input type="text" class="form-control" name="name" placeholder="e.g. Staples Center">
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-md">Add Venue</button>
+    </form>
+
+    <br>
+
+<table class="table">
+  <tr>
+    <th>Name</th>
+    <th>Edit</th>
+    <th>Delete</th>
+  </tr>
+  <% if @venues %>
+  <% @venues.each do |venue| %>
+  <tr>
+    <td><a href="/venues/<%= venue.id %>"><%= venue.name %></a></td>
+    <td><a href="/venues/<%= venue.id %>/edit">Edit</a></td>
+    <td><a href="/venues/<%= venue.id %>/delete">Delete</a></td>
+  </tr>
+  <% end %>
+  <% end %>
+</table>

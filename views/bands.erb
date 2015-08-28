@@ -1,0 +1,33 @@
+<body class="cs-background">
+
+  <div class="container">
+    <h1>Bands</h1>
+    <p></p>
+
+    <form action="/bands" method="post">
+      <div class="form-group">
+        <label for="name">Add a new band:</label>
+        <input type="text" class="form-control" name="name" placeholder="e.g. Thirty Seconds To Mars">
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-md">Add Band</button>
+    </form>
+
+<br>
+
+<table class="table">
+  <tr>
+    <th>Name</th>
+    <th>Edit</th>
+    <th>Delete</th>
+  </tr>
+  <% if @bands %>
+  <% @bands.each do |band| %>
+  <tr>
+    <td><a href="/bands/<%= band.id %>"><%= band.name %></a></td>
+    <td><a href="/bands/<%= band.id %>/edit">Edit</a></td>
+    <td><a href="/bands/<%= band.id %>/delete">Delete</a></td>
+  </tr>
+  <% end %>
+  <% end %>
+</table>

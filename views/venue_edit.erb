@@ -1,0 +1,10 @@
+<form action="/venues" method="post">
+  <input type="hidden" name="_method" value="patch">
+  <input type="hidden" name="id" value="<%= @venue.id %>">
+  <div class='form-group'>
+    <label for="name">New Venue Name</label>
+    <input type="text" class="form-control" name="name" value="<%= @venue.name %>">
+  </div>
+
+  <button type="submit" class="btn btn-primary btn-md">Edit</button>
+</form>
