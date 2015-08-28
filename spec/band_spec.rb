@@ -17,10 +17,9 @@ describe(Venue) do
     band = Band.create({:name => ""})
     expect(band.save()).to(eq(false))
   end
+
+  it('capitalizes the first letters of a band name') do
+    band = Band.create({:name => "thirty seconds to mars"})
+    expect(band.name).to(eq("Thirty Seconds To Mars"))
+  end
 end
-#
-#   it('capitalizes the first letters of a band name') do
-#     band = Band.create({:name => "thirty seconds to mars"})
-#     expect(band.name).to(eq("Thirty Seconds To Mars"))
-#   end
-# end
