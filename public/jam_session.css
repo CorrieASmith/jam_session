@@ -1,0 +1,10 @@
+.cs-background {
+  background: url('wallpaper.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Amatic SC', cursive;
+}
+
+.jumbotron{
+  background: rgba(255, 254, 255, 0.6);
+
+}
