@@ -12,14 +12,14 @@ describe(Band) do
       expect(new_band.venues()).to(eq([new_venue1, new_venue2]))
     end
   end
-  
+
   it('validates the presence of a description') do
     venue = Venue.create({:name => ""})
     expect(venue.save()).to(eq(false))
   end
-  #
-  # it('capitalizes the first letters of a venue name') do
-  #   venue = Venue.create({:name => "staples center"})
-  #   expect(venue.name).to(eq("Staples Center"))
-  # end
+  
+  it('capitalizes the first letters of a venue name') do
+    venue = Venue.create({:name => "staples center"})
+    expect(venue.name).to(eq("Staples Center"))
+  end
 end
