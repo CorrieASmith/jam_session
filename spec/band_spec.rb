@@ -12,12 +12,12 @@ describe(Venue) do
       expect(new_venue.bands()).to(eq([new_band1, new_band2]))
     end
   end
-end
 
-#   it('validates the presence of a description') do
-#     band = Band.create({:name => ""})
-#     expect(band.save()).to(eq(false))
-#   end
+  it('validates the presence of a description') do
+    band = Band.create({:name => ""})
+    expect(band.save()).to(eq(false))
+  end
+end
 #
 #   it('capitalizes the first letters of a band name') do
 #     band = Band.create({:name => "thirty seconds to mars"})
