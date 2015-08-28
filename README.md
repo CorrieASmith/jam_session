@@ -11,9 +11,8 @@ _{This application allows a user to add, view, edit and delete information about
 
 ### Legal
 
-*{This is boilerplate legal language. Read through it, and if you like it, use it. There are other license agreements online, but you can generally copy and paste this.}*
 
-Copyright (c) 2015 **_{Corrie Smith}_**
+Copyright (c) 2015 **_Corrie Smith_**
 
 This software is licensed under the MIT license.
 
