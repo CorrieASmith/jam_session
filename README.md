@@ -9,11 +9,6 @@
 _{This application allows a user to add, view, edit and delete information about bands and venues. The user is able to add multiple bands to venues that it will be performing at. The user is also able to add multiple venues to bands. All my code is passing and the application runs in Sinatra.}_
 
 
-
-## Technologies Used
-
-_{Tell me about the languages you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
-
 ### Legal
 
 *{This is boilerplate legal language. Read through it, and if you like it, use it. There are other license agreements online, but you can generally copy and paste this.}*
