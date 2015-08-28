@@ -1,8 +1,8 @@
-# _{Jam Session - Code Review}_
+# _Jam Session - Code Review_
 
-##### _{This app stores information about bands and venues.}, {08/28/2015}_
+##### _This app stores information about bands and venues. 08/28/2015_
 
-#### By _**{Corrie Smith}**_
+#### By _**Corrie Smith**_
 
 ## Description
 
@@ -18,7 +18,7 @@ _{Tell me about the languages you used to create this app. Assume that I know yo
 
 *{This is boilerplate legal language. Read through it, and if you like it, use it. There are other license agreements online, but you can generally copy and paste this.}*
 
-Copyright (c) 2015 **_{List of contribtors}_**
+Copyright (c) 2015 **_{Corrie Smith}_**
 
 This software is licensed under the MIT license.
 
