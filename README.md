@@ -10,7 +10,7 @@ _This application allows a user to add, view, edit and delete information about 
 
 ## Setup
 
-* _git clone https://github.com/CorrieASmith/jam_session
+* _ git clone https://github.com/CorrieASmith/jam_session
 * _$ cd jam_session_
 * _rake db:create_
 * _rake db:migrate_
