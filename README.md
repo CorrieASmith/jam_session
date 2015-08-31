@@ -6,7 +6,16 @@
 
 ## Description
 
-_{This application allows a user to add, view, edit and delete information about bands and venues. The user is able to add multiple bands to venues that it will be performing at. The user is also able to add multiple venues to bands. All my code is passing and the application runs in Sinatra.}_
+_This application allows a user to add, view, edit and delete information about bands and venues. The user is able to add multiple bands to venues that it will be performing at. The user is also able to add multiple venues to bands. All my code is passing and the application runs in Sinatra._
+
+## Setup
+
+* _git clone https://github.com/CorrieASmith/jam_session
+* _$ cd jam_session_
+* _rake db:create_
+* _rake db:migrate_
+* _rake db:test:prepare_
+* _ruby app.rb_
 
 
 ### Legal
